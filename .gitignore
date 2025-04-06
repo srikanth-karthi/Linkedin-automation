@@ -1,0 +1,13 @@
+# Ignore Python virtual environment
+venv/
+
+# Ignore __pycache__ and other Python junk
+__pycache__/
+*.pyc
+
+# Ignore MacOS metadata
+.DS_Store
+
+# Node-related (if used later)
+node_modules/
+dist/

@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn Auto Sender",
+  "version": "1.0",
+  "description": "Manually click to auto-send LinkedIn catch-up messages.",
+  "permissions": ["scripting", "activeTab"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "icons/icon128.png"
+    }
+  },
+  "host_permissions": ["https://www.linkedin.com/*"]
+}
